@@ -1,0 +1,41 @@
+{
+  "section": "4.3 Severity-Aware Classification",
+  "model": "Full XGBoost",
+  "probability_source": "Section 4.2 calibrated probabilities",
+  "selection_split": "policy_val",
+  "selected_policy": {
+    "name": "Asym-20",
+    "type": "cost",
+    "lambda": 20.0
+  },
+  "reference_lambda": 3.0,
+  "reference_cost_matrix": [
+    [
+      0.0,
+      1.0,
+      2.0
+    ],
+    [
+      3.0,
+      0.0,
+      1.0
+    ],
+    [
+      6.0,
+      3.0,
+      0.0
+    ]
+  ],
+  "max_macro_f1_drop": 0.01,
+  "selection_metric": "Fixed reference cost per 100",
+  "selection_tiebreakers": [
+    "High-Risk Recall (descending)",
+    "Macro-F1 (descending)",
+    "Lambda (ascending)"
+  ],
+  "risk_class_order": [
+    "Low",
+    "Mid",
+    "High"
+  ]
+}

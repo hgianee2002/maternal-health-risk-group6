@@ -1,0 +1,5 @@
+Split,Records,Percentage,Low,Mid,High
+train,3634,59.99,1199,1225,1210
+calibration,606,10.0,200,204,202
+policy_val,606,10.0,200,205,201
+test,1212,20.01,400,409,403

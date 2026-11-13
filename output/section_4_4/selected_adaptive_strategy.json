@@ -1,0 +1,27 @@
+{
+  "section": "4.4 Adaptive Two-Stage Screening",
+  "model_family": "XGBoost",
+  "probability_source": "Section 4.2 calibrated Basic and Full probabilities",
+  "selection_split": "policy_val",
+  "selection_uses_only": "Basic model probabilities",
+  "selected_strategy": {
+    "name": "Uncertainty",
+    "type": "entropy",
+    "alpha": 0.0
+  },
+  "selection_rule": "Highest mean Macro-F1 over B=20,40,60,80; then highest mean High-Risk Recall; then lowest mean Ordinal MAE",
+  "measurement_budgets_percent": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "records_measured_rule": "floor(N * B / 100)",
+  "additional_features": [
+    "HbA1c",
+    "FastingGlucose"
+  ],
+  "seed": 42
+}

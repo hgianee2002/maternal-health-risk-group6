@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# LaTeX temporary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc

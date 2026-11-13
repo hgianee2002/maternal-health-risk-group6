@@ -1,0 +1,39 @@
+{
+  "source_section": "4.1 + 4.2",
+  "model_family": "XGB",
+  "model_type": "XGBoost",
+  "class_order": [
+    "Low",
+    "Mid",
+    "High"
+  ],
+  "basic_features": [
+    "Age",
+    "BodyTemp",
+    "HeartRate",
+    "SystolicBP",
+    "DiastolicBP",
+    "BMI"
+  ],
+  "full_features": [
+    "Age",
+    "BodyTemp",
+    "HeartRate",
+    "SystolicBP",
+    "DiastolicBP",
+    "BMI",
+    "HbA1c",
+    "FastingGlucose"
+  ],
+  "calibration_method": "Temperature Scaling",
+  "calibration_fit_split": "calibration",
+  "probability_export_splits": [
+    "policy_val",
+    "test"
+  ],
+  "seed": 42,
+  "temperature_values": {
+    "basic": 0.7186426231784608,
+    "full": 1.0060990729316586
+  }
+}

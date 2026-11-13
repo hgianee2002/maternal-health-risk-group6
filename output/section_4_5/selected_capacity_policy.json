@@ -1,0 +1,23 @@
+{
+  "section": "4.5 Capacity-Constrained Prioritisation",
+  "model": "Full XGBoost",
+  "probabilities": "Calibrated probabilities from Section 4.2",
+  "selection_split": "policy_val",
+  "selected_strategy": "HighProbability",
+  "selection_rule": "Highest mean High-Risk Recall@K across K=10,20,30,40,50; tie-break Recall@20, then Recall@10, then HighProbability.",
+  "review_capacities": [
+    10,
+    20,
+    30,
+    40,
+    50
+  ],
+  "ranking_tiebreaker": "row_id ascending",
+  "top_k_rule": "floor(N * K / 100)",
+  "class_order": [
+    "Low",
+    "Mid",
+    "High"
+  ],
+  "seed": 42
+}

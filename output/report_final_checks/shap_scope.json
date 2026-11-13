@@ -1,0 +1,11 @@
+{
+  "Target": "calibrated P(High)",
+  "Training_Background_Size": 25,
+  "Test_Explanation_Sample_Size": 60,
+  "Global_Permutation_Cycles": 10,
+  "Local_Permutation_Cycles": 50,
+  "Local_Case": "R003661",
+  "Local_Base": 0.20090870703162114,
+  "Local_P_High": 0.42722572148007015,
+  "Additivity_Residual": 2.220446049250313e-16
+}

@@ -1,0 +1,18 @@
+
+# macOS and Python temporary files
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Local credentials
+.env
+.env.*
+
+# Old output copies and archive
+/output 2/
+/output 3/
+/output.zip

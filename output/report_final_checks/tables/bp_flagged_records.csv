@@ -1,0 +1,20 @@
+row_id,Age,BodyTemp,HeartRate,SystolicBP,DiastolicBP,BMI,HbA1c,FastingGlucose,RiskLevel,Split,BP_Status
+R000075,17,98.8,144,99,101,24.5,47,7.0,High,train,SBP below DBP
+R000111,18,98.6,104,98,101,24.5,49,7.0,High,train,SBP below DBP
+R000117,18,98.8,79,99,101,24.5,48,7.0,High,train,SBP below DBP
+R000149,19,98.6,66,99,101,24.5,47,7.0,High,train,SBP below DBP
+R000512,20,98.6,85,99,99,17.6,36,5.6,High,train,Equal
+R000561,20,98.6,89,99,99,25.6,40,5.6,High,train,Equal
+R001736,22,98.6,96,99,102,25.6,34,5.7,High,train,SBP below DBP
+R001883,22,98.8,76,99,105,24.8,39,5.9,High,train,SBP below DBP
+R002458,23,100.0,68,99,99,17.6,32,5.9,High,train,Equal
+R003809,28,98.6,49,99,101,24.5,48,7.0,High,train,SBP below DBP
+R005795,37,98.8,79,99,101,24.5,48,7.0,High,train,SBP below DBP
+R005796,37,98.8,140,99,101,24.5,48,7.0,High,train,SBP below DBP
+R005877,39,98.8,48,99,101,24.5,48,7.0,High,train,SBP below DBP
+R000246,20,98.6,70,99,105,17.2,30,5.9,High,calibration,SBP below DBP
+R002841,25,98.6,66,99,100,25.8,38,7.7,High,calibration,SBP below DBP
+R005870,39,98.6,79,99,101,24.5,48,7.0,High,calibration,SBP below DBP
+R000074,17,98.8,144,98,101,24.5,49,7.0,High,policy_val,SBP below DBP
+R002360,23,98.6,99,99,99,24.6,36,7.1,High,test,Equal
+R003142,25,103.0,98,99,99,17.5,36,5.6,High,test,Equal

@@ -1,0 +1,24 @@
+row_id,Actual,Argmax,Asym20,Actual_Code,Argmax_Code,Asym20_Code,Before_Correct,After_Correct,Outcome
+R000122,Mid,Mid,High,1,1,2,True,False,New Error
+R000568,Low,Low,Mid,0,0,1,True,False,New Error
+R000623,Mid,Mid,High,1,1,2,True,False,New Error
+R000674,Mid,Mid,High,1,1,2,True,False,New Error
+R001093,High,Mid,High,2,1,2,False,True,Corrected Error
+R001099,Mid,Mid,High,1,1,2,True,False,New Error
+R001233,Mid,Mid,High,1,1,2,True,False,New Error
+R001330,Mid,Mid,High,1,1,2,True,False,New Error
+R001431,Mid,Mid,High,1,1,2,True,False,New Error
+R001667,Low,Low,Mid,0,0,1,True,False,New Error
+R001729,High,Mid,High,2,1,2,False,True,Corrected Error
+R002350,Low,Low,Mid,0,0,1,True,False,New Error
+R002361,Mid,Mid,High,1,1,2,True,False,New Error
+R003135,Mid,Mid,High,1,1,2,True,False,New Error
+R003661,High,Low,High,2,0,2,False,True,Corrected Error
+R004310,Low,Low,Mid,0,0,1,True,False,New Error
+R005147,Mid,Mid,High,1,1,2,True,False,New Error
+R005205,Mid,Mid,High,1,1,2,True,False,New Error
+R005417,Mid,Mid,High,1,1,2,True,False,New Error
+R005478,Mid,Mid,High,1,1,2,True,False,New Error
+R005505,Mid,Mid,High,1,1,2,True,False,New Error
+R005506,Mid,Mid,High,1,1,2,True,False,New Error
+R005760,Mid,Mid,High,1,1,2,True,False,New Error
