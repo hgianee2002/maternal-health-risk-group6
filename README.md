@@ -77,7 +77,7 @@ background; they are not causal clinical effects.
 | Member | Main report responsibilities |
 |---|---|
 | Trang | Sections 4.1–4.2 |
-| Khánh | Methodology and Section 4.3 |
+| Khanh | Methodology and Section 4.3 |
 | Giang | Literature Review and Sections 4.4–4.5 |
 | Châu | Section 4.6 and Section 5 |
 | All members | Remaining sections, integration, review, and final checks |
